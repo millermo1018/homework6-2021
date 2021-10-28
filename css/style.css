@@ -106,4 +106,21 @@ header img {
         flex-direction: row;
         justify-content: space-around;
     }
+    .pricing {
+        display: flex;
+        align-items: flex-end;
+    }
+    .card {
+        border: solid 2px #45ADAD;
+        flex-basis: 250px;
+    }
+    #gallery {
+        display: none;
+    }
+    .card li:nth-of-type(even)::after {
+        content: "👍";
+    }
+    .card li:nth-of-type(odd)::before {
+        content: "👍";
+    }
 }
